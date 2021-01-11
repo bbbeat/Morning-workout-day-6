@@ -45,10 +45,10 @@ html {
     height: 10vh;
 }
 
-p {
-    border-top: black;
-    border-top-width: 2px;
-    border-top-style: solid;
+.article h2 {
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }
 
 h2 {
