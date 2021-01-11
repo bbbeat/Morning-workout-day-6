@@ -1,0 +1,56 @@
+html {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: -1%;
+}
+
+.header {
+   padding: 2%;
+    color: white;
+    background: black;
+    height: 15vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.sidebar {
+    width: 15%;
+    color: white;
+    background: tomato;
+    padding: 2%;
+}
+
+.article {
+    width: 75%;
+    padding: 2%;
+}
+
+.footer {
+    padding: 2%;
+    color: white;
+    background: darkgrey;
+    height: 10vh;
+}
+
+p {
+    border-top: black;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+h2 {
+    font-size: xx-large;
+}
